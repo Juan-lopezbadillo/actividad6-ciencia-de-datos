@@ -49,6 +49,8 @@ for dia in dias_min_temp:
 
 temp_max_ = [t["dia"] for t in temperaturas if t["max"] == last_temp] 
 if temp_max_:
-    print(f"\nLa temperatura maxima ingresada coincide en con los siguientes dias {temp_max_}")
+    print("\nLa temperatura máxima ingresada coincide en los siguientes días:")
+    for dia in temp_max_:
+        print(f"- Día {dia}")
 else:
     print("Ningun dia coincide con la 'maxima temperatura'.")
