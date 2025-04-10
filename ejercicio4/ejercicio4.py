@@ -34,7 +34,7 @@ for intento in range(1, intentos + 1):
         elif adivinar < numero_secreto:
             print("⬆️ El numero secreto es mayor, intenta con un numero mas alto.")
         else:
-            print("⬇️ El numero seccreto es menor, intenta con un numero mas bajo.")
+            print("⬇️ El numero secreto es menor, intenta con un numero mas bajo.")
 
         print(f"Te quedan {intentos - intento} intento(s).\n")
     
